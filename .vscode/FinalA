@@ -1,0 +1,13 @@
+Class FinalA {
+    final int x = 10;
+    final void display();
+
+    final Class FinalB {
+    
+    Class Main {
+        public static void main(String[] args) {
+            FinalA a = new FinalA();
+            System.out.println("Value of x: " + a.x);
+    }
+    }
+}
